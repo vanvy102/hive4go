@@ -12,7 +12,7 @@ go get github.com/frikky/hive4go
 ```
 
 ```Go
-import "github.com/frikky/hive4go"
+import "github.com/Duong/hive4go"
 ```
 
 # Create case example

@@ -30,6 +30,7 @@ type CaseTask struct {
 	DueDate     int64  `json:"dueDate,omitempty"`     // Timestamp (ms)
 	Assignee    string `json:"assignee,omitempty"`    // 1 - 128 ký tự
 	Mandatory   bool   `json:"mandatory,omitempty"`   // true/false
+	Raw	[]byte	`json:"-"`
 }
 
 // Stores multiple tasks from searches
